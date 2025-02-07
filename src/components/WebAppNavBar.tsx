@@ -3,7 +3,7 @@ import { colors } from "../colorConstants";
 import { IconButton } from "../common/components/IconButton";
 
 export const WebAppNavBar = (): React.ReactElement => {
-  const LeftElements = () => {
+  const LeftElements = (): React.ReactElement => {
     return (
       <div className="flex flex-row items-center gap-6">
         <IconButton
@@ -31,7 +31,7 @@ export const WebAppNavBar = (): React.ReactElement => {
     );
   };
 
-  const RightElements = () => {
+  const RightElements = (): React.ReactElement => {
     return (
       <div className="flex flex-row items-center gap-6">
         <IconButton
